@@ -50,21 +50,9 @@ python src/tango.py
   - `=` means adjacent cells must be different
   - `x` means adjacent cells must be the same
 
-## Project Structure
-
-```
-Tango-Puzzle-Game/
-├── src/
-│   └── tango.py          # Main game implementation
-├── notebooks/
-│   └── ml_analysis.ipynb  # ML analysis for difficulty prediction
-├── images/                # Game assets (sun, moon, undo, clear icons)
-└── README.md
-```
-
 ## ML Component
 
-The `ml_analysis.ipynb` notebook contains machine learning analysis:
+The `Project.ipynb` notebook contains machine learning analysis:
 - Predicts game difficulty based on number of parameters
 - Uses K-Means clustering and KNN classification
 - Classifies games as Easy, Medium, or Hard
